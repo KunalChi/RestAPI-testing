@@ -1,0 +1,22 @@
+
+A) Setting up Java, 
+B) Eclipse 
+C) TestNG
+Let us set up our development environment to write some RESTful web services tests. In order to set up the environment we have to follow these links below. If you already have these tools you can skip to the next section.
+
+1. Set up Java 
+2. Set up Eclipse
+3. Set up TestNg
+
+Once Java, Eclipse and TestNG is set up on the system, download and set up Rest-Assured in Eclipse.
+Download the rest-assured-3.0.3-dist.zip file on the system. For me the file gets downloaded to the “downloads” folder. 
+In your case, it might be a different location based on your browser’s default setting. Now, go to that folder where the zip 
+file was downloaded and simply unzip the files. Go to the unzipped folder and open it. There should be following folders and 
+files inside the unzipped folder. 
+  docs: A folder containing javadocs
+  rest-assured-3.0.3.jar: jar file containing Rest-Assured classes
+  rest-assured-3.0.3-deps.zip : Another zip file containing all the dependency jars.
+make sure to unzip the rest-assured-3.0.3-deps.zip dependency jars as well. At the end your folder would like this.
+
+D) Set up Rest-Assured Jars in class Path of Eclipse.n the properties window, go to Java build path option in the left pane. 
+In the Java build path pane, on the left hand side you will see the Libraries pane.
